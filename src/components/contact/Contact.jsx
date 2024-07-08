@@ -118,6 +118,7 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
+          className="contact-form-custom"
         >
           <input
             type="text"
