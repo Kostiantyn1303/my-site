@@ -1,0 +1,65 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  // height: 100vh;
+
+  overflow: hidden;
+}
+
+@mixin mobile {
+  @media (max-width: 738px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
+.container {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+
+  @include mobile {
+    max-width: 738px;
+  }
+
+  @include tablet {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @include desktop {
+    max-width: 1336px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
