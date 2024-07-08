@@ -16,14 +16,26 @@ const Navbar = () => {
           Khymera Kostiantyn
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a
+            href="https://t.me/Kostiantyn_Khymera"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/tele.png" alt="telegram" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/humera_kostia?igsh=bW9sZzB3NXlndXJs&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a
+            href="https://github.com/Kostiantyn1303"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/git.png" alt="" />
           </a>
         </div>
       </div>

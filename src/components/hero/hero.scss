@@ -49,7 +49,7 @@
 
       .buttons {
         z-index: 3;
-        button {
+        a {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
@@ -58,6 +58,7 @@
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
+          z-index: 3;
         }
       }
 
@@ -80,14 +81,10 @@
     right: 0;
 
     @include mobile {
-      height: 50%;
+      height: 48%;
       width: 100%;
       top: unset;
       bottom: 0;
-    }
-    @media screen and (min-width: 739px) and (max-width: 1024px) {
-      height: 60%;
-      right: -10%;
     }
 
     img {
