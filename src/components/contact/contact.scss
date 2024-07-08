@@ -51,6 +51,7 @@
     @include mobile {
       padding: 50px;
       width: 100%;
+      margin-bottom: 10px;
     }
 
     .phoneSvg {
@@ -90,7 +91,4 @@
       }
     }
   }
-}
-.contact-form-custom {
-  padding-bottom: 30px;
 }
