@@ -59,7 +59,12 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <p className="stack">{item.stack}</p>
-            <a className="site-link" href={item.site}>
+            <a
+              className="site-link"
+              href={item.site}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               See It
             </a>
           </motion.div>
