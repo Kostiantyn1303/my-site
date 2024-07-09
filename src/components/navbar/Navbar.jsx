@@ -24,11 +24,11 @@ const Navbar = () => {
             <img src="/telegram.png" alt="telegram" />
           </a>
           <a
-            href="https://www.instagram.com/humera_kostia?igsh=bW9sZzB3NXlndXJs&utm_source=qr"
+            href="https://www.linkedin.com/in/kostiantyn-khymera"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/insta.png" alt="" />
+            <img src="/link.png" alt="" />
           </a>
           <a
             href="https://github.com/Kostiantyn1303"
