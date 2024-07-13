@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: "Indiev",
     img: "https://res.cloudinary.com/dps8chkig/image/upload/v1720377132/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-07-07_%D0%BE_20.31.41_t2grxi.png",
-    desc: "Web aplication that has a payment system and its own file upload system, helps clients create professional content together with video editors.The code is in a private repository, due to NDA policy, but you can contact me and i will tell you how i did this work.",
+    desc: "Web aplication that has a payment system and its own file upload system, helps clients create professional content together with video editors.",
     site: "https://indiev.org",
     stack:
       "JS | HTML | SCSS | React | Next.js | Mongo DB | Stripe |  RESTful API",
