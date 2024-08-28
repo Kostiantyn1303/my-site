@@ -22,6 +22,14 @@ const items = [
   },
   {
     id: 3,
+    title: "Bobr Tap",
+    img: "https://res.cloudinary.com/dps8chkig/image/upload/v1724834846/Знімок_екрана_2024-08-28_о_10.46.14_x7tk6d.png",
+    desc: "I developed a Telegram application that features a seamless and user-friendly experience with several interactive components. The key features of the application include: Clicker with Progress Bar and Timer,Referral System,Task Completion and Points System",
+    site: "#",
+    stack: "JS | TS | Styled component | React | Zustand |  RESTful API | DB",
+  },
+  {
+    id: 4,
     title: "Task pro",
     img: "https://res.cloudinary.com/dps8chkig/image/upload/v1720378330/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-07-07_%D0%BE_20.51.28_fvulm1.png",
     desc: "TaskPro is a widely used project management tool that utilizes boards, lists, and cards to help individuals and teams organize their work and collaborate effectively.A great application for self-organization and for team projects.",
@@ -30,7 +38,7 @@ const items = [
       "JS | HTML | SCSS | React | Redux | Mongo DB | RESTful API | Node.js",
   },
   {
-    id: 4,
+    id: 5,
     title: "Start Podcast",
     img: "https://res.cloudinary.com/dps8chkig/image/upload/v1720378558/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA_%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-07-07_%D0%BE_20.55.17_cj1ldf.png",
     desc: "The landing page for Start Podcast is designed to effectively promote and sell our comprehensive podcast video service. This page aims to attract visitors, inform them about the service's capabilities, and convert them into customers.",
